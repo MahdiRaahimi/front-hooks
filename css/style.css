@@ -5,15 +5,24 @@
     src: url(/font/Vazir.ttf) format("ttf");
     src: url(/font/Vazir.woff) format("woff");
     src: url(/font/Vazir.woff2) format("woff2");
-    /* src: url(/font/Vazir-Bold.eot) format("eot");
+}
+
+@font-face {
+    font-family: "Vazir-bold";
+     src: url(/font/Vazir-Bold.eot) format("eot");
     src: url(/font/Vazir-Bold.ttf) format("ttf");
     src: url(/font/Vazir-Bold.woff) format("woff");
-    src: url(/font/Vazir-Bold.woff2) format("woff2"); */
-
+    src: url(/font/Vazir-Bold.woff2) format("woff2"); 
 }
+
+
 
 *{
     font-family:  "Vazir";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Vazir-bold";
 }
 
 .bg-primary{
